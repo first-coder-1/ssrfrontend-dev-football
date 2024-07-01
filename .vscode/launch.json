@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "pwa-node",
+        "request": "launch",
+        "name": "Launch Next.js",
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/next",
+        "startOnEntry": false,
+        "args": ["dev"],
+        "restart": true,
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "disableOptimisticBPs": true,
+        "skipFiles": ["<node_internals>/**"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,7 @@
+import React from "react";
+import { createSvgIcon } from "@mui/material/utils";
+
+export default createSvgIcon(
+  <path d="M19 4C20.6569 4 22 5.34315 22 7V17C22 18.6569 20.6569 20 19 20H5C3.34315 20 2 18.6569 2 17V7C2 5.34315 3.34315 4 5 4H19ZM4 12V17C4 17.5523 4.44772 18 5 18H19C19.5523 18 20 17.5523 20 17V12H4ZM4 8H20V7C20 6.44772 19.5523 6 19 6H5C4.44772 6 4 6.44772 4 7V8Z" />,
+  "CreditCard",
+);

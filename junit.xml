@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" errors="0" time="4.561">
+  <testsuite name="Footer" errors="0" failures="0" skipped="0" timestamp="2023-05-24T16:20:43" time="2.161" tests="2">
+    <testcase classname="Footer renders a footer" name="Footer renders a footer" time="0.107">
+    </testcase>
+    <testcase classname="Footer renders the footer unchanged" name="Footer renders the footer unchanged" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="Search Autocomplete" errors="0" failures="0" skipped="0" timestamp="2023-05-24T16:20:43" time="2.349" tests="8">
+    <testcase classname="Search Autocomplete does nothing when 3 or less characters" name="Search Autocomplete does nothing when 3 or less characters" time="0.06">
+    </testcase>
+    <testcase classname="Search Autocomplete shows information when loading" name="Search Autocomplete shows information when loading" time="0.091">
+    </testcase>
+    <testcase classname="Search Autocomplete shows information when error loading" name="Search Autocomplete shows information when error loading" time="0.019">
+    </testcase>
+    <testcase classname="Search Autocomplete hides when no results" name="Search Autocomplete hides when no results" time="0.006">
+    </testcase>
+    <testcase classname="Search Autocomplete shows Suggestion for every product" name="Search Autocomplete shows Suggestion for every product" time="0.043">
+    </testcase>
+    <testcase classname="Search Autocomplete Suggestion shows image, name, code and price for a complete product" name="Search Autocomplete Suggestion shows image, name, code and price for a complete product" time="0.058">
+    </testcase>
+    <testcase classname="Search Autocomplete Suggestion renders no image when there is no image" name="Search Autocomplete Suggestion renders no image when there is no image" time="0.031">
+    </testcase>
+    <testcase classname="Search Autocomplete Suggestion matches snapshot" name="Search Autocomplete Suggestion matches snapshot" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="Header" errors="0" failures="0" skipped="0" timestamp="2023-05-24T16:20:43" time="2.653" tests="1">
+    <testcase classname="Header renders a heading" name="Header renders a heading" time="0.137">
+    </testcase>
+  </testsuite>
+  <testsuite name="Layout" errors="0" failures="0" skipped="0" timestamp="2023-05-24T16:20:43" time="2.696" tests="1">
+    <testcase classname="Layout contains header, main and footer" name="Layout contains header, main and footer" time="0.153">
+    </testcase>
+  </testsuite>
+</testsuites>

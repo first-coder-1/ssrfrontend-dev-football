@@ -1,0 +1,50 @@
+const localesCodeMap = {
+  ar: "ar-SA",
+  en: "en-US",
+  zh: "zh-CN",
+};
+
+// use module.exports, because this file uses in craco.config.j
+module.exports = {
+  locales: [
+    "ar",
+    "bn",
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ka",
+    "ko",
+    "nl",
+    "nn",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sl",
+    "sk",
+    "sr",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "vi",
+    "zh",
+    "_catch",
+  ],
+  fallbackLocale: "_catch",
+  getLocaleCode(locale) {
+    return localesCodeMap[locale] || locale;
+  },
+};

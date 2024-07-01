@@ -1,0 +1,30 @@
+# nginx/symfony nginx config
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: nginx-config
+data:
+  nginx.conf: |
+    events {
+    }
+    http {
+      default_type  application/octet-stream;
+      include       /etc/nginx/mime.types;
+
+      server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        server_name _;
+
+        root /var/www/html/public;
+
+        location /health {
+          return 200;
+        }
+
+        location / {
+            proxy_pass       http://localhost:8088;
+        }
+
+      }
+    }
